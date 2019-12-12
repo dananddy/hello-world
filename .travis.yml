@@ -11,3 +11,9 @@ deploy:
   app: cd-showcase
   on:
     repo: OrencioRodolfo/cd-showcase
+  # safelist
+branches:
+  only:
+  - master
+  - stable
+  - labs-patch
