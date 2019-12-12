@@ -4,3 +4,10 @@ node_js:
 script:
   - "npm run lint"
   - "npm run test"
+deploy:
+  provider: heroku
+  api_key:
+    secure: d02232b6-20ff-4e54-9444-504c24036e7b
+  app: cd-showcase
+  on:
+    repo: OrencioRodolfo/cd-showcase
