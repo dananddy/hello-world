@@ -4,7 +4,10 @@
   "description": "first proj",
   "main": "index.js",
   "scripts": {
-    "test": "eslint."
+    "test": "eslint.",
+      "lint": "eslint.",
+      "build": "index.js"
+    
   },
   "repository": {
     "type": "git",
@@ -15,4 +18,5 @@
   ],
   "author": "hacker",
   "license": "MIT"
+  
 }
